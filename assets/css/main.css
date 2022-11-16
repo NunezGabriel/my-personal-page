@@ -23,7 +23,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-rows: 500px 1100px 100px;
-    background-image: url("/assets/imgs/hellterraria.png");
+    background-image: url("../imgs/hellterraria.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body{
     justify-content: center;
 }
 .header-container:hover{
-    background-image: url("/assets/imgs/alastor2.gif");
+    background-image: url("../imgs/alastor2.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ body{
 }
 
 .header-img{
-    background-image: url("/assets/imgs/iconnofond.png");
+    background-image: url("../imgs/iconnofond.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ body{
     transition: color 1s;
 }
 .header-info button:hover{
-    background-image: url("/assets/imgs/uwp186728.gif");
+    background-image: url("../imgs/uwp186728.gif");
     border: 1px solid var(--redgod);
 }
 .header-info button:hover a{
@@ -124,7 +124,7 @@ body{
     height: 460px;
     left: 10px;
     top: 40px;
-    background-image: url("/assets/imgs/runes.png");
+    background-image: url("../imgs/runes.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ body{
     height: 460px;
     right: 10px;
     top: 40px;
-    background-image: url("/assets/imgs/runes.png");
+    background-image: url("../imgs/runes.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ body{
     justify-self: center;
 }
 .skill-1{
-    background-image: url("/assets/imgs/csslog.webp");
+    background-image: url("../imgs/csslog.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -195,7 +195,7 @@ body{
     height: 140px;
 }
 .skill-2{
-    background-image: url("/assets/imgs/htmllog.png");
+    background-image: url("../imgs/htmllog.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,7 +203,7 @@ body{
     height: 140px;
 }
 .skill-3{
-    background-image: url("/assets/imgs/jslog.png");
+    background-image: url("../imgs/jslog.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -211,7 +211,7 @@ body{
     height: 140px;
 }
 .skill-4{
-    background-image: url("/assets/imgs/python.ico");
+    background-image: url("../imgs/python.ico");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ body{
     height: 140px;
 }
 .skill-5{
-    background-image: url("/assets/imgs/Git-Icon-1788C.png");
+    background-image: url("../imgs/Git-Icon-1788C.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -227,7 +227,7 @@ body{
     height: 140px;
 }
 .skill-6{
-    background-image: url("/assets/imgs/reactlog.png");
+    background-image: url("../imgs/reactlog.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -247,7 +247,7 @@ body{
     position: absolute;
     width: 190px;
     height: 160px;
-    background-image: url("/assets/imgs/pistol1.png");
+    background-image: url("../imgs/pistol1.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat; 
@@ -260,7 +260,7 @@ body{
     position: absolute;
     width: 200px;
     height: 170px;
-    background-image: url("/assets/imgs/pistol2.png"); 
+    background-image: url("../imgs/pistol2.png"); 
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -278,7 +278,7 @@ body{
     position: absolute;
     width: 40px;
     height: 115px;
-    background-image: url("/assets/imgs/smoke.png"); 
+    background-image: url("../imgs/smoke.png"); 
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -293,7 +293,7 @@ body{
     position: absolute;
     width: 40px;
     height: 115px;
-    background-image: url("/assets/imgs/smoke.png"); 
+    background-image: url("../imgs/smoke.png"); 
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -334,7 +334,7 @@ body{
     grid-template-rows: repeat(2, 1fr);
     gap: 40px;
     transition: background 1s;
-    background-image: url("/assets/imgs/espiral.webp");
+    background-image: url("../imgs/espiral.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -452,7 +452,7 @@ body{
 .facebook-container{
     width: 70px;
     height: 70px;
-    background-image: url("/assets/imgs/facebook.png");
+    background-image: url("../imgs/facebook.png");
     background-position: center;
     background-repeat: no-repeat;
     z-index: 4;
@@ -460,7 +460,7 @@ body{
 .twitter-container{
     width: 70px;
     height: 70px;
-    background-image: url("/assets/imgs/twitter.png");
+    background-image: url("../imgs/twitter.png");
     background-position: center;
     background-repeat: no-repeat;
     z-index: 4;
@@ -468,7 +468,7 @@ body{
 .instagram-container{
     width: 70px;
     height: 70px;
-    background-image: url("/assets/imgs/instagram.png");
+    background-image: url("../imgs/instagram.png");
     background-position: center;
     background-repeat: no-repeat;
     z-index: 4;
@@ -476,7 +476,7 @@ body{
 .linkedin-container{
     width: 70px;
     height: 70px;
-    background-image: url("/assets/imgs/linkedin.png");
+    background-image: url("../imgs/linkedin.png");
     background-position: center;
     background-repeat: no-repeat;
     z-index: 4;
@@ -484,7 +484,7 @@ body{
 .youtube-container{
     width: 70px;
     height: 70px;
-    background-image: url("/assets/imgs/youtube.png");
+    background-image: url("../imgs/youtube.png");
     background-position: center;
     background-repeat: no-repeat;
     z-index: 4;
@@ -495,7 +495,7 @@ body{
 .ones{
     width: 99px;
     height: 99px;
-    background-image: url("/assets/imgs/circlered.gif");
+    background-image: url("../imgs/circlered.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -504,7 +504,7 @@ body{
 .twos{
     width: 99px;
     height: 99px;
-    background-image: url("/assets/imgs/circlered.gif");
+    background-image: url("../imgs/circlered.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -513,7 +513,7 @@ body{
 .threes{
     width: 99px;
     height: 99px;
-    background-image: url("/assets/imgs/circlered.gif");
+    background-image: url("../imgs/circlered.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -521,7 +521,7 @@ body{
 .fours{
     width: 99px;
     height: 99px;
-    background-image: url("/assets/imgs/circlered.gif");
+    background-image: url("../imgs/circlered.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -530,7 +530,7 @@ body{
 .fives{
     width: 99px;
     height: 99px;
-    background-image: url("/assets/imgs/circlered.gif");
+    background-image: url("../imgs/circlered.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
