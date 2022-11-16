@@ -1,0 +1,434 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --black-header: black;
+    --black-main: rgb(16, 16, 16);
+    --black-footer: rgb(26, 26, 26);
+    --redgod: rgb(203, 36, 36);
+    --white: rgb(232, 232, 232);
+    --gray: rgb(157, 157, 157);
+    --redbright: linear-gradient(to right top, #d92424, #d21f29, #cc1b2e, #c41732, #bd1535, #b61232, #ae0f2e, #a70c2b,
+     #9e0721, #940417, #8b010d, #810000);
+     --bloodyred: #741313;
+}
+.page-container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 500px 1100px 80px;
+    background-image: url("/assets/imgs/3039.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-container{
+    background-color: var(--black-header);
+    display: grid;
+    justify-content: center;
+}
+.header-container:hover{
+    background-image: url("/assets/imgs/alastor2.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-container-content{
+    width: 1050px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    column-gap: 30px;
+}
+
+.header-img{
+    background-image: url("/assets/imgs/iconnofond.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+.header-info{
+    display: grid;
+    place-content: center;
+    padding: 0 25px;
+}
+.header-info h3{
+    color: var(--redgod);
+    margin: 0;
+    margin-bottom: 10px;
+}
+.header-info h1{
+    color: var(--white);
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.header-info p{
+    color: var(--gray);
+    margin: 0;
+    margin-bottom: 10px;
+}
+.header-info button{
+    color: var(--white);
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background-image: var(--redbright);
+    border: 1px solid var(--black-header);
+    transition: border 1s;
+}
+.header-info button a{
+    text-decoration: none;
+    color: var(--white);
+    transition: color 1s;
+}
+.header-info button:hover{
+    background-image: url("/assets/imgs/uwp186728.gif");
+    border: 1px solid var(--redgod);
+}
+.header-info button:hover a{
+    color: var(--redgod);
+}
+/*----------------------------------------------------------------------------------------*/
+.main-container{
+    display: grid;
+    justify-content: center;
+    align-content:center ;
+    background-color: var(--black-main);
+
+}
+.main-container-content{
+    width: 1300px;
+    height: 1000px;
+    box-shadow: 2px 3px 25px 5px var(--bloodyred);
+    background-color: var(--black-main);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.about-me{
+    display: grid;
+    grid-template-rows: 60% 40%;
+    position: relative;
+}
+.runes1{
+    position: absolute;
+    width: 100px;
+    height: 460px;
+    left: 10px;
+    top: 40px;
+    background-image: url("/assets/imgs/runes.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+.runes2{
+    position: absolute;
+    width: 100px;
+    height: 460px;
+    right: 10px;
+    top: 40px;
+    background-image: url("/assets/imgs/runes.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+.about-me:hover .runes1{
+    opacity: 1;
+}
+.about-me:hover .runes2{
+    opacity: 1;
+} 
+.about-me-text{
+    display: grid;
+    height: 100%;
+    width: 800px;
+    text-align: center;
+    justify-self: center;
+}
+.about-me-text h1{
+    color: var(--bloodyred);
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    margin-top: 5px;
+    transition: color 0.8s;
+}
+.about-me-text p{
+    color: var(--bloodyred);  
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin: 0;
+    transition: color 0.8s;
+}
+.about-me:hover .about-me-text h1{
+    color: rgb(255, 0, 0);
+}
+.about-me:hover .about-me-text p{
+    color: rgb(255, 0, 0);
+}
+.about-me-skills{
+    margin-top: 30px;
+    height: 100%;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-self: center;
+}
+.skill-1{
+    background-image: url("/assets/imgs/csslog.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 140px;
+}
+.skill-2{
+    background-image: url("/assets/imgs/htmllog.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 140px;
+}
+.skill-3{
+    background-image: url("/assets/imgs/jslog.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 140px;
+}
+.skill-4{
+    background-image: url("/assets/imgs/python.ico");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 140px;
+}
+.skill-5{
+    background-image: url("/assets/imgs/Git-Icon-1788C.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 140px;
+}
+.skill-6{
+    background-image: url("/assets/imgs/reactlog.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 140px;
+}
+.footer-container{
+    background-color: var(--black-footer);
+}
+.proyects{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    padding-bottom: 15px;
+    position: relative;
+}
+.pistol1{
+    position: absolute;
+    width: 190px;
+    height: 160px;
+    background-image: url("/assets/imgs/pistol1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; 
+    top: 170px;
+    left: 40px;
+    transition: transform 1.5s;
+    
+}
+.pistol2{
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    background-image: url("/assets/imgs/pistol2.png"); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 170px;
+    right: 40px;
+    transition: transform 1.5s;
+}
+.proyects:hover .pistol1{
+    transform: rotate(1080deg);
+}
+.proyects:hover .pistol2{
+    transform: rotate(-1080deg);
+}
+.smoke1{
+    position: absolute;
+    width: 40px;
+    height: 115px;
+    background-image: url("/assets/imgs/smoke.png"); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 120px;
+    left: 220px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    transition-delay: 0.1s;
+}
+.smoke2{
+    position: absolute;
+    position: absolute;
+    width: 40px;
+    height: 115px;
+    background-image: url("/assets/imgs/smoke.png"); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 120px;
+    right: 225px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    transition-delay: 0.1s;
+}
+.proyects:hover .smoke1{
+    opacity: 1;
+    transition-delay: 1.5s;
+}
+.proyects:hover .smoke2{
+    opacity: 1;
+    transition-delay: 1.5s;
+}
+.proyects h1{
+    text-align: center;
+    color: var(--bloodyred);
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    transition: color 0.8s;
+    transition-delay: 0.1s;
+}
+.proyects:hover h1{
+    color:  rgb(255, 0, 0);
+    transition-delay: 1.5s;
+} 
+.proyects-container{
+    border-radius: 20px;
+    width: 540px;
+    height: 100%;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    transition: background 1s;
+    background-image: url("/assets/imgs/espiral.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.proyect{
+    display: grid;
+    place-items: center;
+}
+.proyect a{
+    text-decoration: none;
+    color: var(--bloodyred);
+    font-size: 30px;
+}
+.one{
+    opacity: 0;
+    transition: opacity 0.8s;
+    transition-delay: 0.1s;
+}
+.two{
+    opacity: 0;
+    transition: opacity 0.8s;
+    transition-delay: 0.1s;
+}
+.three{
+    opacity: 0;
+    transition: opacity 0.8s;
+    transition-delay: 0.1s;
+}
+.four{
+    opacity: 0;
+    transition: opacity 0.8s;
+    transition-delay: 0.1s;
+}
+.proyects:hover .proyects-container{
+    background-image: none;
+}
+.proyects:hover .one{
+    background-image: linear-gradient(to right top, #de47e8, #ff34b2, #ff4d7f, #ff7656, #ff9a3e, #ffa636, #feb32e, #fbc026, #fcb91d, #fdb114, #feaa0a, #ffa200);
+    opacity: 1;
+    transition-delay: 1.5s;
+    border-radius: 20px;
+}
+.proyects:hover .two{
+    background-image: linear-gradient(to right top, #bf33ea, #657eff, #00a9ff, #00c7ff, #00deff, #00dbff, #00d8ff, #00d5ff, #00b6ff, #0092ff, #0065ff, #0700ff);
+    opacity: 1;
+    transition-delay: 1.5s;
+    border-radius: 20px;
+}
+.proyects:hover .three{
+    background-image: linear-gradient(to right top, #ffffff, #f2f2f2, #e5e5e5, #d9d9d9, #cccccc, #b5b5b5, #9f9f9f, #898989, #656565, #434343, #242424, #000000);
+    opacity: 1;
+    transition-delay: 1.5s;
+    border-radius: 20px;
+}
+.proyects:hover .four{
+    background-image: linear-gradient(to right top, #6f6f6f, #7a6c96, #8f64b8, #af51d1, #d91ee1);
+    opacity: 1;
+    transition-delay: 1.5s;
+    border-radius: 20px;
+}
+.one a{
+    opacity: 0;
+    transition: opacity 0.8s;
+    transition-delay: 0.1s;
+}
+.two a{
+    opacity: 0;
+    transition: opacity 0.8s;
+    transition-delay: 0.1s;
+}
+.three a{ 
+    opacity: 0;
+    transition: opacity 0.8s;
+    transition-delay: 0.1s;
+}
+.four a{
+    opacity: 0;
+    transition: opacity 0.8s;
+    transition-delay: 0.1s;
+}
+.proyects:hover .one a{
+    opacity: 1;
+    transition-delay: 1.5s;
+    color: white;
+}
+.proyects:hover .two a{
+    opacity: 1;
+    transition-delay: 1.5s;
+    color: rgb(25, 0, 255);
+}
+.proyects:hover .three a{
+    color: var(--black-header);
+    opacity: 1;
+    transition-delay: 1.5s;
+}
+.proyects:hover .four a{
+    opacity: 1;
+    transition-delay: 1.5s;
+    color: greenyellow;
+}
